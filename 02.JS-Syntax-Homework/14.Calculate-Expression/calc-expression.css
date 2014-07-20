@@ -1,0 +1,28 @@
+input[type="text"]{
+	display: block;
+	background-color: #234465;
+	color:#FF9933;
+	width: 200px;
+	height: 25px;
+	font-size: 10pt;
+	padding-left: 10px;
+}
+button{
+	display: block;
+	background-color: white;
+	border: 2px solid #234465;
+	color:#234465;
+	width: 100px;
+	height: 35px;
+	margin-top: 20px;
+	margin-left: 55px;
+}
+p{
+	background-color: #234465;
+	color:#FF9933;
+	display: block;
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+}	

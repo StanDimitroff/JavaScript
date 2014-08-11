@@ -5,7 +5,7 @@ function clone(obj) {
 }
 
 function compareObjects(obj, copy) {
-	console.log(obj == copy);
+	console.log('a == b --> '+ (obj == copy));
 }
 
 var a = {

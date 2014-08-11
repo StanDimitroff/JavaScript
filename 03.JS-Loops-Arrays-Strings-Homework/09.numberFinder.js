@@ -19,7 +19,7 @@ function findMostFreqNum(arr) {
 			counter = 1;
 		}
 		j++;
-	};
+	}
 	if (counter > bestCounter) { //gets counter and index after last iteration
             bestCounter = counter;
             bestIndex = arr.length - 1;

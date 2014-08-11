@@ -4,7 +4,7 @@ function findMinAndMax(arr) {
 	//sort with function
 	function orderBy(a, b) {
 		return a - b;
-	};
+	}
 	arr.sort(orderBy);
 	console.log('Min ->' + ' ' + arr[0]);
 	console.log('Max ->' + ' ' + arr[arr.length - 1]);

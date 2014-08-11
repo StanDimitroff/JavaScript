@@ -12,11 +12,11 @@ function compareChars(arrayOne, arrayTwo) {
 				equal = false;
 				break;
 			}
-		};
+		}
 		if (equal && true) {
-			console.log("Equal")
+			console.log("Equal");
 		} else {
-			console.log("Not equal")
+			console.log("Not equal");
 		}
 	}
 }
@@ -26,7 +26,7 @@ compareChars(['1', 'f', '1', 's', 'g', 'j', 'f', 'u', 's', 'q'],
 );
 compareChars(['3', '5', 'g', 'd'], 
 ['5', '3', 'g', 'd']
-)
+);
 compareChars(['q', 'g', 'q', 'h', 'a', 'k', 'u', '8', '}', 'q', '.', 'h', '|', ';'],
 ['6', 'f', 'w', 'q', ':', '”', 'd', '}', ']', 's', 'r']
-)
+);

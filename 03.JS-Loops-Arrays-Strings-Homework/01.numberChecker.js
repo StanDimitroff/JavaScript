@@ -2,16 +2,16 @@
 
 function printNumbers(n) {
 	if (n < 1) {
-		console.log("no")
+		console.log("no");
 	} else {
 		var numbers = [];
 		for (var i = 1; i <= n; i++) {
-			if (i % 20 != 0) {
+			if (i % 20 !== 0) {
 				numbers.push(i);
-			};
-		};
+			}
+		}
 		console.log(numbers.join(', '));
-	};
+	}
 }
 
 printNumbers(20);

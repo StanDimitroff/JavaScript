@@ -6,7 +6,7 @@ function displayProperties (argument) {
 		properties.push(prop);
 	}
 	properties.sort();
-	for(var prop in properties){
+	for(prop in properties){
 		console.log(properties[prop]); //Open the HTML document and then the browser console to see the result
 	}
 }

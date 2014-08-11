@@ -10,6 +10,6 @@ function findPalindromes(str) {
 		}
 	}
 	result.pop();
-	return result = result.join(', ');
+	return result.join(', ');
 }
 console.log(findPalindromes('There is a man, his name was Bob.'));

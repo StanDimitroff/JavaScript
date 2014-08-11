@@ -20,7 +20,7 @@ function findCardFrequency(str) {
 	cardFaces.pop();//removes the empty element at
 
 	for (var i in cardFaces) {
-		if (cardFaces[i] in count == true) {
+		if (cardFaces[i] in count === true) {
 			count[cardFaces[i]]++;
 		} else {
 			count[cardFaces[i]] = 1;

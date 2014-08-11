@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Display DIVs Content</title>
+	</head>
+	<body onload="getContent()">
+		<div>first div</div>
+		<div>second div</div>
+		<div class="empty"></div>
+		<div>third div<div>inner div</div></div>
+	<ul id="result"></ul>
+	<script>
+		function getContent() {
+			//get divs
+			var divs = document.getElementsByTagName('div');
+			//create fragment
+			var fragment = document.createDocumentFragment();
+			var ul = document.getElementById('result');
+			for (var i in divs) {
+				//create li
+				var li = document.createElement('li');
+				//check if div is not empty
+				if (divs[i].innerHTML) {
+					//asign li
+					li.innerHTML = divs[i].innerHTML;
+					//add current li to fragment
+					fragment.appendChild(li);
+				}
+			}
+			//add fragment to ul
+			ul.appendChild(fragment);
+		}
+	</script>
+</body>
+</html>

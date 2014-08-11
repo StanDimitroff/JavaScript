@@ -3,17 +3,18 @@
 function sortArray(arr) {
 	var replaceIndex = 0;
 	var select = arr;
-	for (var i = 0; i < arr.length; i++) {
-		select = select.slice(0);// this is the rest of the array after last iteration
-		Array.min = function findMin(arr) {
+	Array.min = function findMin(arr) {
 			return Math.min.apply(Math, select);
 		};
+	for (var i = 0; i < arr.length; i++) {
+		select = select.slice(0);// this is the rest of the array after last iteration
+		
 		var minimum = Array.min(select);
 		var position = select.indexOf(minimum);
 		arr[replaceIndex] = select[position];
 		replaceIndex++;
 		select.splice(position, 1);//remove sorted element
-	};
+	}
 	console.log(arr.join(', '));
 }
 sortArray([5, 4, 3, 2, 1]);

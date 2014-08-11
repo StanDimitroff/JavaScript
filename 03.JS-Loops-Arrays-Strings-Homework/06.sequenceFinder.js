@@ -20,7 +20,7 @@ function findMaxSequence(arr) {
 				length = 1;
 			}
 			j--;
-		};
+		}
 
 		if (length > bestLength) { //gets counter and index after last iteration
 			bestLength = length;

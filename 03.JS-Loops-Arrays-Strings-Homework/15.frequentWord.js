@@ -7,7 +7,7 @@ function findMostFreqWord (str) {
     }
  	var count=[];
 	for (var i in words) {
-		if (words[i] in count == true) {
+		if (words[i] in count === true) {
 			count[words[i]]++;
 		} else {
 			count[words[i]] = 1;
@@ -28,9 +28,8 @@ function findMostFreqWord (str) {
 
     resultWords.sort();
     for (i in resultWords) {
-        console.log(resultWords[i] + ' -> ' + maxCount + ' times') 
+        console.log(resultWords[i] + ' -> ' + maxCount + ' times');
     }
-
 }
 
 findMostFreqWord('in the middle of the night');

@@ -5,10 +5,10 @@ function divisionBy3(num) {
 	var str = num.toString();
 	for (var i = 0; i < str.length; i++) {
 		sum += Number(str[i]);
-	};
+	}
 	console.log(sum % 3 == 0 ? "The number is divided by 3 without remainder" : "The number is not divided by 3 without remainder");
 }
 
 divisionBy3(12);
-divisionBy3(189);
+divisionBy3(188);
 divisionBy3(591);

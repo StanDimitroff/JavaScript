@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="controls">
+        <label for="x">X:</label>
+        <input type="text" id="x"/>
+        <label for="y">Y:</label>
+        <input type="text" id="y"/>
+        <label for="color">Color: </label>
+        <input type="color" id="color"/><br/>
+        <label for="shape">Shape: </label>
+        <select name="" id="shape">
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="segment">Segment</option>
+            <option value="point">Point</option>
+        </select><br/>
+        <label for="radius">Radius: </label>
+        <input type="text" id="radius"/><br/>
+
+        <label for="width">Width: </label>
+        <input type="text" id="width"/><br/>
+
+        <label for="height">Height: </label>
+        <input type="text" id="height"/><br/>
+
+        <label for="x2">X2: </label>
+        <input type="text" id="x2"/><br/>
+
+        <label for="y2">Y2: </label>
+        <input type="text" id="y2"/><br/>
+
+        <label for="x3">X3: </label>
+        <input type="text" id="x3"/><br/>
+
+        <label for="y3">Y3: </label>
+        <input type="text" id="y3"/><br/>
+
+        <textarea name="" id="info" cols="80" rows="10"></textarea><br/>
+        <input type="submit" value="Add" onclick="add()"/>
+    </div>
+    <canvas id="shapesField" width="500" height="500" style="border:1px solid"></canvas>
+
+</div>
+<script src="shapes.js"></script>
+<script src="controls.js"></script>
+</body>
+</html>

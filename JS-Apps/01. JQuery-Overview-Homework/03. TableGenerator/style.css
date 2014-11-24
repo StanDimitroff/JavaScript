@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    width: 500px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    background-color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+td{
+    border: 1px solid black;
+}

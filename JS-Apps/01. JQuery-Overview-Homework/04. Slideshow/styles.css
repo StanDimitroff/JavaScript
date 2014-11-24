@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#slider {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+img {
+    position: absolute;
+    border-radius: 50px;
+}
+
+#prev {
+    position: absolute;
+    top: 280px;
+    left: 310px;
+}
+
+#next {
+    position: absolute;
+    top: 280px;
+    left: 1040px;
+}

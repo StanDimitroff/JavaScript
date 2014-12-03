@@ -1,0 +1,29 @@
+#wrapper{
+    background-color: orange;
+}
+#book{
+    display: inline-block;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid  black;
+    padding: 10px;
+    margin:10px;
+    background-color: limegreen;
+}
+#input{
+    padding: 10px;
+    margin:10px;
+}
+.title{
+    font-weight: bold;
+}
+.title, .author, .isbn{
+    text-align: center;
+    padding: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+}
+.options{
+    margin: 2px;
+    background-color: springgreen;
+}

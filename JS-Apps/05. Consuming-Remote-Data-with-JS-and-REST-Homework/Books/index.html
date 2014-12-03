@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Books</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div id="wrapper">
+    <div id="books-container">
+        <div id="books-list"></div>
+        <div id="input">
+            <input type="text" id="add-book-title" placeholder="Book title"/>
+            <input type="text" id="add-book-author" placeholder="Author"/>
+            <input type="text" id="add-book-isbn" placeholder="ISBN"/>
+            <input type="text" id="add-book-tags" placeholder="Tags"/>
+            <button id="add-book-button">Add book</button>
+            <br/>
+            <input type="text" id="edit-book-title"/>
+            <input type="text" id="edit-book-author"/>
+            <input type="text" id="edit-book-isbn"/>
+            <input type="text" id="edit-book-tags" placeholder="Add new tags"/>
+            <button id="edit-book">Edit</button>
+        </div>
+    </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="libs/jquery.noty.packaged.min.js"></script>
+<script type="text/javascript" src="scripts/ajax-requester.js"></script>
+<script type="text/javascript" src="scripts/data-manipulator.js"></script>
+<script type="text/javascript" src="scripts/controller.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

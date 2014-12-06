@@ -31,8 +31,8 @@ application.controller = function () {
         for (var i in book.tags) {
             bookContainer.append($('<div>').text(decodeURI(book.tags[i])).addClass('tag').append($('<div>').append($('<input type="button" class="delete-tag-button" value="x">'))));
         }
-        bookContainer.append($('<div>').append($('<button class="edit-book-button">Edit</button>').addClass('options')));
-        bookContainer.append($('<div>').append($('<button class="delete-book-button">Delete</button>').addClass('options')));
+        bookContainer.append($('<div>').append($('<button class="edit-book-button options">Edit</button>')));
+        bookContainer.append($('<div>').append($('<button class="delete-book-button options">Delete</button>')));
         bookContainer.attr('data-id', book.objectId);
 
         $(selector).append(bookContainer);

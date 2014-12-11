@@ -1,0 +1,31 @@
+button{
+    margin: 2px;
+}
+.hidden{
+    display: none;
+}
+div.country{
+    border:2px solid cadetblue;
+    width: 80%;
+    margin: 10px;
+}
+
+#countries{
+    border:3px solid cornflowerblue;
+    width: 60%;
+}
+#towns{
+    border:2px solid seagreen;
+    width: 60%;
+    margin: 5px;
+    display: none;
+}
+div.town{
+    border:2px solid cadetblue;
+    width: 80%;
+    margin: 10px;
+}
+#controls{
+    border:3px solid cornflowerblue;
+    width: 60%;
+}
